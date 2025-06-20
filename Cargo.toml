@@ -22,7 +22,7 @@ rusb = "0.9"
 thiserror = "1.0"
 
 [dev-dependencies]
-rusb = "0.9"
+rusb = { version = "0.9", features = ["vendored"] }
 byteorder = "1"
 ctrlc = "3.4"
 num-complex = "0.4"
